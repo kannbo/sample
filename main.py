@@ -3,4 +3,4 @@ import pandas as pd
 import numpy as np
 st.title("hello")
 text=st.text_input("入力","hello")
-st.text(text)
+st.markdown(text)
