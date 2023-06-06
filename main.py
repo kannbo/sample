@@ -4,7 +4,7 @@ import numpy as np
 a=[""]
 b={}
 st.title("hello")
-text=st.text_area("入力","hello",5,10)
+text=st.text_area("入力","hello",5,1000)
 if st.button("hello"):
     st.markdown(eval(text,globals(),b))
     a.append(text)
