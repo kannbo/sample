@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-a=[]
-b=""
+a=[""]
+b=[""}
 st.title("hello")
 text=st.text_input("入力","hello")
 st.markdown(text)
