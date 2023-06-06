@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 a=[""]
-b=[""]
+b={}
 st.title("hello")
 text=st.text_area("入力","hello",5,10)
 if st.button("hello"):
-    st.markdown(text)
+    st.markdown(eval(text,globals(),b))
     a.append(text)
 b=""
 for i in a:
